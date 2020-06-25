@@ -1,34 +1,31 @@
-import { ScullyConfig } from '@scullyio/scully';
+import {ScullyConfig, setPluginConfig} from '@scullyio/scully';
 
+setPluginConfig('md', {enableSyntaxHighlighting: true});
 
 export const config: ScullyConfig = {
-  projectRoot: "./projects/news/src",
-  projectName: "news",
+  projectRoot: './projects/news/src',
+  projectName: 'news',
   outDir: './dist/static',
   routes: {
     '/docs/:page': {
       type: 'contentFolder',
       page: {
-        folder: "./docs"
-      }
+        folder: './docs',
+      },
     },
     '/authors/:id': {
       type: 'json',
-      "id": {
+      id: {
         url: 'http://localhost:8200/users',
-        property: 'id'
-      }
+        property: 'id',
+      },
     },
     '/posts/:id': {
       type: 'json',
-      "id": {
+      id: {
         url: 'http://localhost:8200/posts',
-        property: 'id'
-      }
+        property: 'id',
+      },
     },
-    
-  },
-  guessParserOptions:{
-    // excludedFiles: ['projects/news/src/app/author/author-routing.module.ts']
   }
 };

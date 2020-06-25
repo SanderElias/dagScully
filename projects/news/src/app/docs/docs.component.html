@@ -1,0 +1,61 @@
+<h1>From the docs!</h1>
+
+
+<section>
+  <router-outlet></router-outlet>
+</section>
+
+<div class="buttonBar">
+  <ng-container *ngIf="prev$|async as prev">
+    <a [routerLink]="[prev.route]">{{prev.title}}</a>
+  </ng-container>
+  <ng-container *ngIf="next$|async as next">
+    <a [routerLink]="[next.route]">{{next.title}}</a>
+  </ng-container>
+</div>
+
+<style>
+  :host {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2rem 1fr 2rem;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem
+  }
+
+  section {
+    border: 2px solid green;
+    border-radius: 1rem;
+    padding:1rem;
+    width: 80vw;
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  .buttonBar a {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 3px;
+    width: 20vw;;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #6CCE7A;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .buttonBar a:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
+  }
+  
+  .buttonBar a:active {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+</style>

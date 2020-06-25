@@ -1,9 +1,10 @@
-import { HttpClient } from '@angular/common/http';
-import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { EMPTY, merge, ReplaySubject, timer } from 'rxjs';
-import { filter, map, pluck, switchMap, take, tap } from 'rxjs/operators';
-import { Authors } from '../authors/Authors.interface';
+import {HttpClient} from '@angular/common/http';
+import {ChangeDetectorRef, Component, Input, OnInit} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {EMPTY, merge, ReplaySubject, timer} from 'rxjs';
+import {filter, map, switchMap, take, pluck, tap} from 'rxjs/operators';
+import {Authors} from '../authors/Authors.interface';
+import {TransferStateService} from '@scullyio/ng-lib';
 
 @Component({
   selector: 'app-author',
@@ -13,7 +14,14 @@ import { Authors } from '../authors/Authors.interface';
 export class AuthorComponent implements OnInit {
   private id$ = new ReplaySubject<number>(1);
   author$ = this.id$.pipe(
-    switchMap((id) => this.http.get<Authors>(`http://localhost:8200/users/${id}`)),
+    switchMap((id) =>
+      this.tss.useScullyTransferState(
+        'author',
+        this.http
+          .get<Authors>(`http://localhost:8200/users/${id}`)
+          // .pipe(map((user) => pluckFrom(user, 'name', 'email', 'website', 'id')))
+      )
+    )
   );
 
   @Input() set userId(n) {
@@ -24,7 +32,7 @@ export class AuthorComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private http: HttpClient,
-    private cdr: ChangeDetectorRef
+    private tss: TransferStateService
   ) {}
 
   ngOnInit(): void {
@@ -35,8 +43,14 @@ export class AuthorComponent implements OnInit {
         switchMap((id: number | undefined) =>
           id ? EMPTY : this.route.params.pipe(pluck('id'), filter(Boolean))
         ),
-        tap(id => this.id$.next(+id))
+        tap((id) => this.id$.next(+id))
       )
       .subscribe();
   }
+}
+
+function pluckFrom<T>(obj: T, ...props: string[]): Partial<T> {
+  const result = {};
+  props.forEach((prop) => (result[prop] = obj[prop]));
+  return result;
 }
