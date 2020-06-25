@@ -16,7 +16,7 @@ export class AuthorComponent implements OnInit {
     switchMap((id) => this.http.get<Authors>(`http://localhost:8200/users/${id}`)),
   );
 
-  @Input() set userId(n) {
+  @Input() set userId(n:number) {
     if (n && Number.isInteger(n)) {
       this.id$.next(n);
     }
@@ -34,7 +34,7 @@ export class AuthorComponent implements OnInit {
         switchMap((id: number | undefined) =>
           id ? EMPTY : this.route.params.pipe(pluck('id'), filter(Boolean))
         ),
-        tap(id => this.id$.next(id))
+        tap(id => this.id$.next(+id))
       )
       .subscribe();
   }
