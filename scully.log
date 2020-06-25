@@ -72,3 +72,783 @@ You can ignore the warning (TLS) or run scully with --no-warning
 
 The option outDir isn't configured, using default folder "[33m./dist/static/[39m".No routes defined in ""
 
+
+
+
+We could not find "[33mprojects/tsconfig.app.json[39m". Using the apps source folder as source. This might lead to unpredictable results
+
+
+We encountered a problem while reading the routes from your applications source.
+This might happen when there are lazy-loaded routes, that are not loaded,
+Or when there are paths we can not resolve statically.
+Check the routes in your app, rebuild and retry.
+[33m(You can inspect the error by passing the --showGuessError flag[39m
+
+[32mWhen there are extraRoutes in your config, we will still try to render those.[39m
+
+
+
+
+
+We could not find "[33mprojects/tsconfig.app.json[39m". Using the apps source folder as source. This might lead to unpredictable results
+
+We encountered a problem while reading the routes from your applications source.
+This might happen when there are lazy-loaded routes, that are not loaded,
+Or when there are paths we can not resolve statically.
+Check the routes in your app, rebuild and retry.
+[33m(You can inspect the error by passing the --showGuessError flag[39m
+
+[32mWhen there are extraRoutes in your config, we will still try to render those.[39m
+
+
+
+
+
+We encountered a problem while reading the routes from your applications source.
+This might happen when there are lazy-loaded routes, that are not loaded,
+Or when there are paths we can not resolve statically.
+Check the routes in your app, rebuild and retry.
+[33m(You can inspect the error by passing the --showGuessError flag[39m
+
+[32mWhen there are extraRoutes in your config, we will still try to render those.[39m
+
+
+
+
+
+
+We encountered a problem while reading the routes from your applications source.
+This might happen when there are lazy-loaded routes, that are not loaded,
+Or when there are paths we can not resolve statically.
+Check the routes in your app, rebuild and retry.
+[33m(You can inspect the error by passing the --showGuessError flag[39m
+
+[32mWhen there are extraRoutes in your config, we will still try to render those.[39m
+
+
+
+
+
+
+We encountered a problem while reading the routes from your applications source.
+This might happen when there are lazy-loaded routes, that are not loaded,
+Or when there are paths we can not resolve statically.
+Check the routes in your app, rebuild and retry.
+[33m(You can inspect the error by passing the --showGuessError flag[39m
+
+[32mWhen there are extraRoutes in your config, we will still try to render those.[39m
+
+
+
+
+
+
+We encountered a problem while reading the routes from your applications source.
+This might happen when there are lazy-loaded routes, that are not loaded,
+Or when there are paths we can not resolve statically.
+Check the routes in your app, rebuild and retry.
+[33m(You can inspect the error by passing the --showGuessError flag[39m
+
+[32mWhen there are extraRoutes in your config, we will still try to render those.[39m
+
+
+
+
+
+
+
+We encountered a problem while reading the routes from your applications source.
+This might happen when there are lazy-loaded routes, that are not loaded,
+Or when there are paths we can not resolve statically.
+Check the routes in your app, rebuild and retry.
+[33m(You can inspect the error by passing the --showGuessError flag[39m
+
+[32mWhen there are extraRoutes in your config, we will still try to render those.[39m
+
+
+
+
+
+No configuration for route "[33m/posts/:id[39m" found. Skipping
+
+
+No configuration for route "[33m/posts/:id[39m" found. Skipping
+
+
+
+No configuration for route "[33m/posts/:id[39m" found. Skipping
+
+
+
+****************************************************************************************
+This is a development tool for Scully applications.
+You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+****************************************************************************************
+This is a development tool for Scully applications.
+You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+Could not fetch data for route "[33m/posts/:id[39m"
+
+
+
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+We encountered a problem while reading the routes from your applications source.
+This might happen when there are lazy-loaded routes, that are not loaded,
+Or when there are paths we can not resolve statically.
+Check the routes in your app, rebuild and retry.
+[33m(You can inspect the error by passing the --showGuessError flag[39m
+
+[32mWhen there are extraRoutes in your config, we will still try to render those.[39m
+
+
+
+
+
+We encountered a problem while reading the routes from your applications source.
+This might happen when there are lazy-loaded routes, that are not loaded,
+Or when there are paths we can not resolve statically.
+Check the routes in your app, rebuild and retry.
+[33m(You can inspect the error by passing the --showGuessError flag[39m
+
+[32mWhen there are extraRoutes in your config, we will still try to render those.[39m
+
+
+
+
+
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+No configuration for route "[33m/docs/:slug[39m" found. Skipping
+No configuration for route "[33m/docs/:slug/:slug[39m" found. Skipping
+No configuration for route "[33m/docs/:slug/:slug/**[39m" found. Skipping
+
+
+
+No configuration for route "[33m/docs/:slug[39m" found. Skipping
+No configuration for route "[33m/docs/:slug/**[39m" found. Skipping
+
+
+
+
+No configuration for route "[33m/docs/:slug/**[39m" found. Skipping
+
+
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/features[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/features[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/CODE_OF_CONDUCT_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/CODE_OF_CONDUCT_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/issues[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/issues[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/plugin/contentFolderPlugin[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/plugin/contentFolderPlugin[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/blog_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/blog_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/getting-started[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/getting-started[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/getting-started_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/getting-started_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/CODE_OF_CONDUCT[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/CODE_OF_CONDUCT[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/features_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/features_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/blog[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/blog[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/plugin/ingoredPlugin_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/plugin/ingoredPlugin_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/plugin/jsonPlugin_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/plugin/jsonPlugin_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/plugins_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/plugins_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/plugin/ingoredPlugin[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/plugin/ingoredPlugin[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/polyfills[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/polyfills[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/pre-requisites[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/pre-requisites[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/recommended-plugins_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/recommended-plugins_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/recommended-plugins[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/recommended-plugins[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/pre-requisites_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/pre-requisites_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/plugin/jsonPlugin[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/plugin/jsonPlugin[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/plugin/contentFolderPlugin_es[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/plugin/contentFolderPlugin_es[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/plugins[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/plugins[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/release-for-v8[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/release-for-v8[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/scully-cmd-line[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/scully-cmd-line[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/roadmap[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/roadmap[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/scully-configuration[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/scully-configuration[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/scully-provided-plugins[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/scully-provided-plugins[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/routeParameters[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/routeParameters[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/util[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/util[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/Introduction[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/Introduction[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/Introducci%C3%B3n[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/Introducci%C3%B3n[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/scully-lib-core[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/scully-lib-core[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+        ----------------
+        Error, missing "[33m<scully-content>[39m" in route "[33m/docs/showcase[39m"
+        without <scully-content> we can not render this route.
+        Make sure it is in there, and not inside any conditionals (*ngIf)
+        You can check this by opening "[33mhttp://localhost:4200//docs/showcase[39m"
+        when you serve your app with [33mng serve[39m and then in the browsers console run:
+        [33mdocument.querySelector('scully-content')[39m
+        ----------------
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
+
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------
+
+
+
