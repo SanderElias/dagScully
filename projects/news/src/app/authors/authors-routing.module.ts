@@ -1,7 +1,8 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {Routes, RouterModule} from '@angular/router';
 
-import { AuthorsComponent } from './authors.component';
+import {AuthorsComponent} from './authors.component';
+import {AuthorComponent} from '../author/author.component';
 
 const routes: Routes = [
   {
@@ -10,14 +11,13 @@ const routes: Routes = [
     children: [
       {
         path: ':id',
-        loadChildren: () =>
-          import('../author/author.module').then(m => m.AuthorModule),
-      }
+        component: AuthorComponent,
+      },
     ],
   },
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AuthorsRoutingModule { }
+export class AuthorsRoutingModule {}

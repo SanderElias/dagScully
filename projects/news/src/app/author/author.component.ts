@@ -28,13 +28,14 @@ export class AuthorComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    /** ok feeding the id in via an input and the router is a bit of a chore */
     merge(this.id$, timer(10).pipe(map(() => undefined)))
       .pipe(
         take(1),
         switchMap((id: number | undefined) =>
           id ? EMPTY : this.route.params.pipe(pluck('id'), filter(Boolean))
         ),
-        tap(id => this.id$.next(id))
+        tap(id => this.id$.next(+id))
       )
       .subscribe();
   }
