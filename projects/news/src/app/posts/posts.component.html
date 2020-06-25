@@ -1,0 +1,40 @@
+<nav>
+  <a
+    *ngFor="let item of posts$|async"
+    [routerLink]="['./',item.id]"
+    routerLinkActive='act'
+  >{{item.title}}</a>
+</nav>
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<style>
+  :host {
+    display: grid;
+    height: calc(100vh - 8rem);
+    width: calc(100vw - 3rem);
+    grid-template-columns: 15rem 1fr;
+  }
+
+  nav {
+    overflow-y: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  main {}
+
+  nav>a {
+    display: block;
+    margin: .25rem;
+    padding: 2px;
+    text-decoration: none;
+    color: #4C615B;
+    border: 2px solid inherit;
+  }
+
+  nav>a.act {
+    border: 2px dashed #4C615B;
+  }
+</style>
