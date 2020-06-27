@@ -1,12 +1,18 @@
-import {ScullyConfig, setPluginConfig} from '@scullyio/scully';
+import {ScullyConfig, setPluginConfig, registerPlugin} from '@scullyio/scully';
 
-setPluginConfig('md', {enableSyntaxHighlighting: true});
+// setPluginConfig('md', {enableSyntaxHighlighting: true});
 
 export const config: ScullyConfig = {
   projectRoot: './projects/news/src',
   projectName: 'news',
   outDir: './dist/static',
   routes: {
+    '/blog/:slug': {
+      type: 'contentFolder',
+      slug: {
+        folder: "./blog"
+      }
+    },
     '/docs/:page': {
       type: 'contentFolder',
       page: {
@@ -27,5 +33,5 @@ export const config: ScullyConfig = {
         property: 'id',
       },
     },
-  }
+  },
 };

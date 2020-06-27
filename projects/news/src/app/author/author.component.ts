@@ -19,7 +19,7 @@ export class AuthorComponent implements OnInit {
         'author',
         this.http
           .get<Authors>(`http://localhost:8200/users/${id}`)
-          // .pipe(map((user) => pluckFrom(user, 'name', 'email', 'website', 'id')))
+          .pipe(map((user) => pluckFrom(user, 'name', 'email', 'website', 'id')))
       )
     )
   );

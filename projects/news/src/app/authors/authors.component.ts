@@ -14,7 +14,7 @@ export class AuthorsComponent implements OnInit {
     'authors',
     this.http
       .get<Authors[]>('http://localhost:8200/users')
-      // .pipe(map((rows) => rows.map((row) => ({id: row.id, name: row.name}))))
+      .pipe(map((rows) => rows.map((row) => ({id: row.id, name: row.name}))))
   );
 
   constructor(private http: HttpClient, private tss: TransferStateService) {}
